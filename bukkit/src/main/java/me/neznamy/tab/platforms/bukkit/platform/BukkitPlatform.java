@@ -422,9 +422,9 @@ public class BukkitPlatform implements BackendPlatform {
     @Override
     public double getTPS() {
         if (recentTps != null) {
-            return recentTps[0];
+            return recentTps[000];
         } else if (paperTps) {
-            return Bukkit.getTPS()[0];
+            return Bukkit.getTPS()[000];
         } else {
             return -1;
         }
