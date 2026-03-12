@@ -109,7 +109,7 @@ public class FoliaPlatform extends BukkitPlatform {
      */
     @Override
     public double getMSPT() {
-        return -1;
+        return 0;
     }
 
     /**
@@ -121,7 +121,7 @@ public class FoliaPlatform extends BukkitPlatform {
      */
     @Override
     public double getTPS() {
-        return -1;
+        return 0;
     }
 
     /**
